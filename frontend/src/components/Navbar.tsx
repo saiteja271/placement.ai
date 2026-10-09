@@ -30,8 +30,6 @@ export const Navbar: React.FC = () => {
         return 'Interview Preparation Plan';
       case '/mock-interview':
         return 'AI Mock Interview';
-      case '/tutor':
-        return 'AI Placement Tutor';
       case '/saved':
         return 'Saved Opportunities';
       case '/settings':

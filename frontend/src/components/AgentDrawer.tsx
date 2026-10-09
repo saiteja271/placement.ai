@@ -134,8 +134,6 @@ export const AgentDrawer: React.FC = () => {
       navigate('/prep');
     } else if (act.includes('interview') || act.includes('mock')) {
       navigate('/mock-interview');
-    } else if (act.includes('tutor')) {
-      navigate('/tutor');
     }
   };
 

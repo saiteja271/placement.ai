@@ -65,8 +65,8 @@ export const LandingPage: React.FC = () => {
           <a href="#how-it-works" className="hover:text-primary-app transition-colors">
             How It Works
           </a>
-          <a href="#ai-tutor" className="hover:text-primary-app transition-colors">
-            AI Tutor
+          <a href="#agent-copilot" className="hover:text-primary-app transition-colors">
+            Agent Copilot
           </a>
           <a href="#about" className="hover:text-primary-app transition-colors">
             About
@@ -218,12 +218,11 @@ export const LandingPage: React.FC = () => {
             {/* Feature 6 */}
             <div className="p-5 rounded-2xl bg-surface border border-theme shadow-2xs hover:border-primary-accent/40 transition-all space-y-2">
               <div className="w-9 h-9 rounded-xl bg-primary-light text-primary-accent flex items-center justify-center">
-                <GraduationCap className="w-4 h-4" />
+                <Sparkles className="w-4 h-4" />
               </div>
-              <h3 className="font-bold text-sm text-ink">AI Placement Tutor & Doubt Solver</h3>
+              <h3 className="font-bold text-sm text-ink">Agent Copilot & Activity Trace</h3>
               <p className="text-xs text-muted leading-relaxed">
-                Adaptive pedagogical coaching across 6 learning modes: concept explanations, doubt clearing, code debugging,
-                interview challenges, quizzes, and answer reviews.
+                Bounded multi-step reasoning agent executing real deterministic tools with step-by-step audit logs, execution traces, and instant tool actions.
               </p>
             </div>
           </div>
@@ -277,102 +276,79 @@ export const LandingPage: React.FC = () => {
               <span className="font-mono text-xs font-bold text-primary-accent px-2 py-0.5 rounded bg-primary-light">
                 Step 04
               </span>
-              <h4 className="font-bold text-sm text-ink pt-1">Prepare and Learn</h4>
+              <h4 className="font-bold text-sm text-ink pt-1">Prepare and Rehearse</h4>
               <p className="text-xs text-muted leading-relaxed">
-                Execute daily structured preparation tasks, rehearse realistic technical rounds, and master concepts with the AI Tutor.
+                Execute daily structured preparation tasks, rehearse realistic technical rounds with AI mock interviews, and track readiness.
               </p>
             </div>
           </div>
         </div>
 
-        {/* 5. Dedicated AI Tutor Preview Section */}
-        <div id="ai-tutor" className="pt-8 mb-16 scroll-mt-20 text-left">
+        {/* 5. Dedicated Agent Copilot Showcase */}
+        <div id="agent-copilot" className="pt-8 mb-16 scroll-mt-20 text-left">
           <div className="p-6 sm:p-8 rounded-2xl bg-surface border border-theme shadow-2xs space-y-5">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div>
                 <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-primary-light text-primary-accent text-[11px] font-bold mb-2">
                   <Sparkles className="w-3.5 h-3.5" />
-                  <span>Interactive Placement Learning Workspace</span>
+                  <span>Explainable Agentic AI Engine</span>
                 </div>
                 <h2 className="text-xl sm:text-2xl font-bold text-ink tracking-tight">
-                  AI Placement Tutor & Technical Doubt Solver
+                  PlaceMate Copilot — Multi-Step Autonomous Assistant
                 </h2>
                 <p className="text-xs text-muted mt-1 max-w-xl">
-                  Whether you are debugging a runtime crash, mastering Python OOP, understanding SQL joins, or learning recursion,
-                  our tutor provides question-aware explanations tailored to campus placement rounds.
+                  Ask complex placement queries in natural language. Our bounded agent decomposes requests, calls deterministic backend tools, verifies eligibility, analyzes skill gaps, and returns verifiable answers with full execution traces.
                 </p>
               </div>
 
               <button
-                onClick={() => {
-                  if (currentUser) {
-                    navigate('/tutor');
-                  } else {
-                    openAuthModal('signin');
-                  }
-                }}
+                onClick={() => openAgentDrawer()}
                 className="self-start sm:self-auto px-4 py-2 rounded-xl bg-primary-app hover:opacity-95 text-white font-semibold text-xs shadow-2xs flex items-center gap-1.5 transition-all cursor-pointer shrink-0"
               >
-                <GraduationCap className="w-4 h-4" />
-                <span>Open AI Tutor Workspace</span>
+                <Sparkles className="w-4 h-4" />
+                <span>Launch Agent Copilot</span>
               </button>
             </div>
 
-            {/* 6 Learning Modes Grid Preview */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2.5 pt-2">
-              <div className="p-3 rounded-xl bg-canvas border border-theme space-y-1">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-primary-accent block">Mode 1</span>
-                <div className="font-bold text-xs text-ink">Learn a Topic</div>
-                <p className="text-[10px] text-muted leading-tight">Fundamentals to interview rigor</p>
+            {/* 4 Core Deterministic Tools */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-2">
+              <div className="p-3.5 rounded-xl bg-canvas border border-theme space-y-1">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-primary-accent block">Tool 1</span>
+                <div className="font-bold text-xs text-ink">Job Discovery & Scoring</div>
+                <p className="text-[10px] text-muted leading-tight">Searches verified listings and computes multi-factor match percentages.</p>
               </div>
-              <div className="p-3 rounded-xl bg-canvas border border-theme space-y-1">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-primary-accent block">Mode 2</span>
-                <div className="font-bold text-xs text-ink">Explain a Doubt</div>
-                <p className="text-[10px] text-muted leading-tight">Direct, clear answers to doubts</p>
+              <div className="p-3.5 rounded-xl bg-canvas border border-theme space-y-1">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-accent-green block">Tool 2</span>
+                <div className="font-bold text-xs text-ink">Eligibility Verification</div>
+                <p className="text-[10px] text-muted leading-tight">Evaluates mandatory CGPA, backlog, and branch criteria deterministically.</p>
               </div>
-              <div className="p-3 rounded-xl bg-canvas border border-theme space-y-1">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-primary-accent block">Mode 3</span>
-                <div className="font-bold text-xs text-ink">Practice Questions</div>
-                <p className="text-[10px] text-muted leading-tight">Targeted interview challenges</p>
+              <div className="p-3.5 rounded-xl bg-canvas border border-theme space-y-1">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-accent-amber block">Tool 3</span>
+                <div className="font-bold text-xs text-ink">Skill Gap Diagnosis</div>
+                <p className="text-[10px] text-muted leading-tight">Separates missing mandatory requirements from secondary bonus skills.</p>
               </div>
-              <div className="p-3 rounded-xl bg-canvas border border-theme space-y-1">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-primary-accent block">Mode 4</span>
-                <div className="font-bold text-xs text-ink">Debug Code</div>
-                <p className="text-[10px] text-muted leading-tight">Root cause & optimal fixes</p>
-              </div>
-              <div className="p-3 rounded-xl bg-canvas border border-theme space-y-1">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-primary-accent block">Mode 5</span>
-                <div className="font-bold text-xs text-ink">Quiz Me</div>
-                <p className="text-[10px] text-muted leading-tight">4-option technical MCQs</p>
-              </div>
-              <div className="p-3 rounded-xl bg-canvas border border-theme space-y-1">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-primary-accent block">Mode 6</span>
-                <div className="font-bold text-xs text-ink">Review My Answer</div>
-                <p className="text-[10px] text-muted leading-tight">Rubric-based evaluation</p>
+              <div className="p-3.5 rounded-xl bg-canvas border border-theme space-y-1">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-primary-accent block">Tool 4</span>
+                <div className="font-bold text-xs text-ink">Prep Roadmap Drafting</div>
+                <p className="text-[10px] text-muted leading-tight">Generates tailored preparation plans with balanced DSA and system design tasks.</p>
               </div>
             </div>
 
             {/* Quick Interactive Prompt Previews */}
             <div className="pt-2 border-t border-theme/60 flex flex-wrap items-center gap-2">
-              <span className="text-[11px] font-semibold text-muted">Try asking in the tutor:</span>
+              <span className="text-[11px] font-semibold text-muted">Try asking the Copilot:</span>
               {[
-                'Explain Python inheritance with an example.',
-                'What is the difference between a Python list and a tuple?',
-                'Teach me SQL joins using two sample tables.',
-                'Debug this code: print(10 / 0).'
+                'Assess top jobs & verify my eligibility',
+                'Analyze skill gaps for Google SDE',
+                'Generate a 4-week preparation plan',
+                'Find eligible Software Engineer positions'
               ].map((sample, idx) => (
                 <button
                   key={idx}
-                  onClick={() => {
-                    if (currentUser) {
-                      navigate('/tutor');
-                    } else {
-                      openAuthModal('signin');
-                    }
-                  }}
+                  onClick={() => openAgentDrawer(sample)}
                   className="text-[11px] px-2.5 py-1 rounded-lg bg-surface-alt border border-theme text-primary-accent hover:bg-primary-app hover:text-white transition-all cursor-pointer font-medium"
                 >
-                  💡 {sample}
+                  ⚡ {sample}
                 </button>
               ))}
             </div>

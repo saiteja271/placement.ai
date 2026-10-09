@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet, Navigate } from 'react-router-dom';
 import { AppProvider } from './context/AppContext';
 import { Sidebar } from './components/Sidebar';
 import { Navbar } from './components/Navbar';
@@ -17,7 +17,6 @@ import { JobDetailPage } from './pages/JobDetailPage';
 import { SkillAnalysisPage } from './pages/SkillAnalysisPage';
 import { InterviewPrepPage } from './pages/InterviewPrepPage';
 import { MockInterviewPage } from './pages/MockInterviewPage';
-import { LearningBotPage } from './pages/LearningBotPage';
 import { SavedJobsPage } from './pages/SavedJobsPage';
 import { SettingsPage } from './pages/SettingsPage';
 
@@ -70,7 +69,7 @@ export function App() {
             <Route path="/skills" element={<SkillAnalysisPage />} />
             <Route path="/prep" element={<InterviewPrepPage />} />
             <Route path="/mock-interview" element={<MockInterviewPage />} />
-            <Route path="/tutor" element={<LearningBotPage />} />
+            <Route path="/tutor" element={<Navigate to="/dashboard" replace />} />
             <Route path="/saved" element={<SavedJobsPage />} />
             <Route path="/settings" element={<SettingsPage />} />
 

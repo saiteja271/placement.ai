@@ -15,7 +15,6 @@ import {
   SlidersHorizontal,
   Play,
   BookOpen,
-  GraduationCap,
   Building,
   Target
 } from 'lucide-react';
@@ -549,11 +548,11 @@ export const MockInterviewPage: React.FC = () => {
             <div className="pt-4 border-t border-theme flex flex-wrap items-center justify-between gap-3">
               <div className="flex flex-wrap items-center gap-2">
                 <button
-                  onClick={() => navigate('/tutor')}
+                  onClick={() => navigate('/skills')}
                   className="px-4 py-2.5 bg-surface-tint hover:bg-primary-app hover:text-white text-primary-app text-xs font-bold rounded-xl border border-theme transition-all cursor-pointer flex items-center gap-1.5"
                 >
-                  <GraduationCap className="w-4 h-4" />
-                  <span>Practice in AI Tutor</span>
+                  <Target className="w-4 h-4" />
+                  <span>View Skill Gaps</span>
                 </button>
 
                 <button

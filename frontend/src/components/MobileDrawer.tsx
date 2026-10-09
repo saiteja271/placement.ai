@@ -8,7 +8,6 @@ import {
   LineChart,
   CalendarCheck,
   BotMessageSquare,
-  GraduationCap,
   Bookmark,
   Settings,
   Sparkles,
@@ -46,7 +45,6 @@ export const MobileDrawer: React.FC = () => {
     { name: 'Skill Analysis', path: '/skills', icon: LineChart },
     { name: 'Interview Prep', path: '/prep', icon: CalendarCheck },
     { name: 'Mock Interview', path: '/mock-interview', icon: BotMessageSquare },
-    { name: 'AI Tutor', path: '/tutor', icon: GraduationCap },
     { name: 'Saved Jobs', path: '/saved', icon: Bookmark },
     { name: 'Settings', path: '/settings', icon: Settings },
   ];
