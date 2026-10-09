@@ -1,0 +1,15 @@
+test_id,area,scenario,expected_result,priority,actual_result,status
+TC001,Profile form,Submit all required fields empty,Required-field validation appears,High,,Not Run
+TC002,Profile form,Submit a valid student profile,Profile is accepted and values are preserved,High,,Not Run
+TC003,Profile form,Name contains only spaces,Input is rejected after trimming whitespace,High,,Not Run
+TC004,Numeric validation,CGPA is below 0 or above 10,Invalid CGPA cannot be submitted,High,,Not Run
+TC005,Skills,No skills selected,Application handles empty skills without crashing,Medium,,Not Run
+TC006,Eligibility,Student meets all mandatory rules,Eligibility matches the agreed rule engine,High,,Not Run
+TC007,Eligibility,Student misses mandatory CGPA cutoff,Not eligible with a clear reason,High,,Not Run
+TC008,Eligibility,Student lacks only a preferred skill,Skill gap shown without false rejection,High,,Not Run
+TC009,Recommendations,No jobs match profile,Helpful empty-results message appears,Medium,,Not Run
+TC010,Resume upload,Resume exceeds configured file size,Upload is rejected with a clear message,Medium,,Not Run
+TC011,Resume upload,Unsupported file type is selected,Unsupported file is not processed,Medium,,Not Run
+TC012,Results UI,Open job details and roadmap,Details correspond to the selected job,High,,Not Run
+TC013,Responsive UI,Use application at narrow screen width,Forms and cards remain readable and usable,Medium,,Not Run
+TC014,End-to-end,Complete profile-to-roadmap journey,No unexpected errors in demo flow,High,,Not Run

@@ -1,0 +1,9 @@
+student_id,full_name,degree,branch,graduation_year,cgpa,skills,experience_level,preferred_role,preferred_location
+S001,Demo Student 1,B.Tech,Computer Science,2027,8.2,Python;SQL;Git,Fresher,Python Developer,Hyderabad
+S002,Demo Student 2,B.E.,Information Technology,2026,7.1,Java;SQL;HTML;CSS,Internship,Java Developer,Bengaluru
+S003,Demo Student 3,B.Tech,Electronics and Communication,2027,6.4,Python;Excel;SQL,Fresher,Data Analyst,Hyderabad
+S004,Demo Student 4,MCA,Computer Applications,2026,8.8,Python;JavaScript;HTML;CSS;Git,Internship,Web Developer,Remote
+S005,Demo Student 5,B.Tech,Mechanical Engineering,2025,7.8,Python;SQL;Power BI,Experienced,Data Analyst,Chennai
+S006,Demo Student 6,B.Sc.,Mathematics,2027,9.1,Python;Statistics;Excel,Fresher,Data Analyst,Remote
+S007,Demo Student 7,B.Tech,Computer Science,2028,8.0,Python;Java,Fresher,Python Developer,Pune
+S008,Demo Student 8,B.Tech,Computer Science,2026,5.9,,Fresher,Python Developer,Hyderabad

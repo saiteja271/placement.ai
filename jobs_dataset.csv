@@ -1,0 +1,21 @@
+job_id,job_title,company,degree,branches,minimum_cgpa,mandatory_skills,preferred_skills,minimum_experience,graduation_years,location,salary_lpa
+J001,Python Developer,TechNova,B.Tech,"CSE,IT,ECE",7.0,Python,"SQL,Git,Flask",0,"2026,2027",Hyderabad,4.5
+J002,Data Analyst,DataSphere,B.Tech,"CSE,IT,ECE",6.5,"SQL,Excel","Python,Power BI",0,"2026,2027",Bengaluru,5.0
+J003,MERN Stack Developer,WebCraft,B.Tech,"CSE,IT",7.0,"JavaScript,React","Node.js,MongoDB,Express",0,2027,Hyderabad,5.5
+J004,Java Developer,CodeBridge,B.Tech,"CSE,IT,ECE",7.5,"Java,OOP","SQL,Spring Boot",0,"2026,2027",Pune,4.8
+J005,Machine Learning Intern,AIWorks,B.Tech,"CSE,IT,ECE",7.0,Python,"Pandas,NumPy,Scikit-learn",0,2027,Bengaluru,3.5
+J006,Frontend Developer,PixelForge,B.Tech,"CSE,IT",6.0,"HTML,CSS,JavaScript","React,TypeScript",0,"2026,2027",Chennai,4.0
+J007,Backend Developer,ServerStack,B.Tech,"CSE,IT",7.0,"Python,SQL","FastAPI,Docker",1,"2026,2027",Hyderabad,6.0
+J008,Cloud Support Associate,CloudOrbit,B.Tech,"CSE,IT,ECE",6.0,"Linux,Networking","AWS,Python",0,"2026,2027",Noida,4.2
+J009,Cybersecurity Analyst,SecureNet,B.Tech,"CSE,IT,ECE",7.0,"Networking,Linux","Python,SIEM",0,2027,Pune,5.2
+J010,Power BI Developer,InsightWorks,B.Tech,"CSE,IT",6.5,"SQL,Power BI","DAX,Excel",0,"2026,2027",Hyderabad,4.8
+J011,AI Engineer,NeuralEdge,B.Tech,"CSE,IT",8.0,"Python,Machine Learning","Deep Learning,PyTorch",1,"2026,2027",Bengaluru,8.0
+J012,SQL Developer,QueryLabs,B.Tech,"CSE,IT,ECE",6.0,SQL,"Python,Database Design",0,"2026,2027",Vijayawada,3.8
+J013,Software Testing Engineer,QualityFirst,B.Tech,"CSE,IT,ECE",6.5,"Testing,SQL","Selenium,Python",0,2027,Chennai,4.2
+J014,DevOps Engineer,DeployPro,B.Tech,"CSE,IT",7.5,"Linux,Git,Docker","AWS,Kubernetes",1,"2026,2027",Bengaluru,7.0
+J015,Technical Support Engineer,HelpDeskPro,B.Tech,"CSE,IT,ECE",6.0,"Networking,Communication","Linux,SQL",0,"2026,2027",Hyderabad,3.6
+J016,Data Engineer,PipelineTech,B.Tech,"CSE,IT",7.5,"Python,SQL","Spark,AWS",1,"2026,2027",Pune,7.0
+J017,Business Analyst,BizMetrics,B.Tech,"CSE,IT,ECE",6.5,"Excel,SQL","Power BI,Communication",0,"2026,2027",Hyderabad,4.5
+J018,JavaScript Developer,ScriptWorks,B.Tech,"CSE,IT",6.5,"JavaScript,HTML,CSS","React,Node.js",0,2027,Vijayawada,4.0
+J019,Database Administrator,DataVault,B.Tech,"CSE,IT",7.0,"SQL,Database Design","Linux,Cloud",1,"2026,2027",Chennai,5.8
+J020,Graduate Software Trainee,NextGen Systems,B.Tech,"CSE,IT,ECE,EEE",6.0,Programming,"Python,SQL,Problem Solving",0,2027,Vijayawada,3.5

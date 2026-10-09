@@ -1,0 +1,41 @@
+job_id,job_title,skill,skill_type
+J001,Python Developer,Python,required
+J001,Python Developer,SQL,required
+J001,Python Developer,Git,required
+J001,Python Developer,REST APIs,preferred
+J001,Python Developer,Testing,preferred
+J002,Java Developer,Java,required
+J002,Java Developer,SQL,required
+J002,Java Developer,OOP,required
+J002,Java Developer,Git,preferred
+J002,Java Developer,Spring Boot,preferred
+J003,Data Analyst,SQL,required
+J003,Data Analyst,Excel,required
+J003,Data Analyst,Statistics,required
+J003,Data Analyst,Python,preferred
+J003,Data Analyst,Power BI,preferred
+J004,Frontend Web Developer,HTML,required
+J004,Frontend Web Developer,CSS,required
+J004,Frontend Web Developer,JavaScript,required
+J004,Frontend Web Developer,Git,preferred
+J004,Frontend Web Developer,React,preferred
+J005,Junior QA Engineer,Testing,required
+J005,Junior QA Engineer,SQL,required
+J005,Junior QA Engineer,Git,required
+J005,Junior QA Engineer,Python,preferred
+J005,Junior QA Engineer,API Testing,preferred
+J006,Business Intelligence Intern,Excel,required
+J006,Business Intelligence Intern,SQL,required
+J006,Business Intelligence Intern,Power BI,required
+J006,Business Intelligence Intern,Statistics,preferred
+J006,Business Intelligence Intern,Python,preferred
+J007,Backend Developer Intern,Python,required
+J007,Backend Developer Intern,REST APIs,required
+J007,Backend Developer Intern,Git,required
+J007,Backend Developer Intern,SQL,preferred
+J007,Backend Developer Intern,Docker,preferred
+J008,Data Science Trainee,Python,required
+J008,Data Science Trainee,Statistics,required
+J008,Data Science Trainee,SQL,required
+J008,Data Science Trainee,Machine Learning,preferred
+J008,Data Science Trainee,Pandas,preferred

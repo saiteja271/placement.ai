@@ -1,0 +1,20 @@
+roadmap_id,skill,step_order,topic,activity,suggested_days,evidence_of_learning
+R001,Git,1,Git basics,"Learn repositories, commits, branches, and push/pull",2,Create a repository and push a small project
+R002,REST APIs,1,HTTP and JSON fundamentals,Practice GET and POST requests and inspect JSON responses,3,Call a public practice API and handle its response
+R003,Testing,1,Testing fundamentals,Write test cases and practice assertions with pytest,3,Create tests for valid and invalid inputs
+R004,Java,1,Java syntax and OOP,"Practice classes, objects, collections, and exceptions",7,Build a small console application
+R005,SQL,1,SQL queries,"Practice SELECT, filtering, joins, grouping, and aggregation",5,Answer practice questions using a sample database
+R006,Excel,1,Spreadsheet analysis,"Practice formulas, sorting, filtering, pivot tables, and charts",4,Create a small summary report from sample data
+R007,Statistics,1,Descriptive statistics,"Review mean, median, variance, distributions, and correlation",5,Summarize a dataset and explain its key patterns
+R008,Power BI,1,Dashboard fundamentals,"Import data, build visuals, and create a simple dashboard",5,Publish or present a small dashboard
+R009,HTML,1,HTML structure,Build accessible page structure with semantic elements,2,Create a simple multi-section web page
+R010,CSS,1,Responsive styling,"Practice layout, flexbox, grid, and media queries",4,Make a page usable at mobile and desktop widths
+R011,JavaScript,1,JavaScript fundamentals,"Practice variables, functions, arrays, objects, and events",6,Add interactive behavior to a simple page
+R012,Machine Learning,1,ML introduction,"Review supervised learning, train/test split, and evaluation",7,Train and evaluate a simple model on sample data
+R013,Python,1,Python foundations,"Practice data types, functions, loops, exceptions, and modules",7,Build a small Python project
+R014,Pandas,1,Data manipulation with Pandas,"Practice loading CSVs, cleaning data, filtering, and grouping",4,Clean and summarize a CSV dataset
+R015,React,1,React basics,"Learn components, props, state, and basic event handling",7,Build a small component-based interface
+R016,Spring Boot,1,Spring Boot introduction,Create a simple REST endpoint and connect a service layer,7,Run a basic CRUD API
+R017,API Testing,1,API test workflows,"Test request methods, status codes, payloads, and edge cases",3,Document tests for a sample API
+R018,Docker,1,Container basics,Build and run a simple container image,4,Containerize a small application
+R019,OOP,1,Object-oriented programming,"Practice encapsulation, inheritance, abstraction, and polymorphism",4,Model a small domain using classes
