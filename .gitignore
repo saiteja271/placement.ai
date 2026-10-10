@@ -19,8 +19,11 @@ dist/
 .env
 .env.local
 
-# IDE
+# IDE & Temp
 .vscode/
 .idea/
 *.swp
 *.swo
+~$*
+*.tmp
+tools/
